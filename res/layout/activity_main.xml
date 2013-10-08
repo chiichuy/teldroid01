@@ -33,4 +33,13 @@
 	    android:layout_width="fill_parent"
 	    android:layout_height="wrap_content"
 	    android:text="@string/btn_main_lab03_label"/>
+	<TextView 
+     	android:layout_width="fill_parent"
+     	android:layout_height="wrap_content"
+     	android:text="@string/label_main_explanation05"/>
+	<Button 
+	    android:id="@+id/btn_main_lab04"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/btn_main_lab04_label"/>
 </LinearLayout>

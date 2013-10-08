@@ -1,5 +1,7 @@
 package com.telnor.curso.dia01;
 
+import com.telnor.curso.dia02.Lab04ListRowActivity;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -23,6 +25,7 @@ public class MainActivity extends Activity {
 		Button lab01Button = (Button) findViewById(R.id.btn_main_lab01);
 		Button lab02Button = (Button) findViewById(R.id.btn_main_lab02);
 		Button lab03Button = (Button) findViewById(R.id.btn_main_lab03);
+		Button lab04Button = (Button) findViewById(R.id.btn_main_lab04);
 
 		lab01Button.setOnClickListener(new View.OnClickListener() {
 			@Override
@@ -48,6 +51,15 @@ public class MainActivity extends Activity {
 				Intent goToLab03 = new Intent(getApplicationContext(),
 						Lab03ListActivity.class);
 				startActivity(goToLab03);
+			}
+		});
+		
+		lab04Button.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent goToLab04 = new Intent(getApplicationContext(),
+						Lab04ListRowActivity.class);
+				startActivity(goToLab04);
 			}
 		});
 	}

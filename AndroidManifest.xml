@@ -42,6 +42,10 @@
             android:name="com.telnor.curso.dia01.Lab03ListActivity"
             android:label="@string/title_activity_lab03_list" >
         </activity>
+        <activity
+            android:name="com.telnor.curso.dia02.Lab04ListRowActivity"
+            android:label="@string/title_activity_lab04_list_row" >
+        </activity>
     </application>
 
 </manifest>

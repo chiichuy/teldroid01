@@ -9,9 +9,11 @@
     <string name="label_main_explanation02">Lab 01: Manejo de intentos para iniciar nuevas actividades.</string>
     <string name="label_main_explanation03">Lab 02: Envio de parametro entre actividades.</string>
     <string name="label_main_explanation04">Lab 03: Manejo de listviews simples.</string>
+    <string name="label_main_explanation05">Lab 04: Manejo de listviews complejas</string>
     <string name="btn_main_lab01_label">Lab 01</string>
     <string name="btn_main_lab02_label">Lab 02</string>
     <string name="btn_main_lab03_label">Lab 03</string>
+    <string name="btn_main_lab04_label">Lab 04</string>
 
     <!-- Todos los strings utilizados para las actividades del lab01 -->
     <string name="title_activity_lab01_first">Lab 01 Primera Actividad</string>
@@ -27,5 +29,9 @@
     <string name="et_lab02_param_hint">Ingresa un parametro</string>
     <string name="btn_lab02_goToNext">Ir a siguiente</string>
     <string name="title_activity_lab03_list">Lab 03 List Activity</string>
+    <string name="title_activity_lab04_list_row">Lab04ListRowActivity</string>
+    <string name="hello_world">Hello world!</string>
+    
+    
 
 </resources>

@@ -1,0 +1,16 @@
+<!--
+Layout de la segunda actividad del lab 01, este layout es lineal y orientado vertical.
+Contiene una vista tipo "textView" la cual contiene un texto almacenado en nuestro archivo
+de recursos de strings (/res/values/strings.xml).
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_lab01_secondActivity" />
+
+</LinearLayout>

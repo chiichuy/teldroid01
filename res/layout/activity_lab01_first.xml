@@ -1,0 +1,26 @@
+<!-- 
+El layout de la primer actividad del lab 01 es lineal con orientacion vertical.
+
+Contiene una vista de tipo textView la cual despliega un texto almacenado en el recurso de Strings de la aplicacion
+(/res/values/strings.xml).
+
+Tambien tiene un boton con el id "btn_lab01_firstActivity_goToNext", este boton define su anchura y altura con "wrap_content"
+lo cual significa que dependera de su contenido, medira lo que mida el texto que contenga. El texto del boton esta ubicado
+en el recurso de Strings de la aplicacion.
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_lab01_firstActivity" />
+    <Button 
+        android:id="@+id/btn_lab01_firstActivity_goToNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+   		android:text="@string/btn_lab01_goToNext"
+        />
+</LinearLayout>

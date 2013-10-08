@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dia01</string>
+    <string name="action_settings">Configuración</string>
+
+    <!-- Todos los strings utilizados para la actividad main -->
+    <string name="label_main_explanation01">El dia 01 se trata de crear el primer proyecto, un hola mundo y tres laboratorios.</string>
+    <string name="label_main_explanation02">Lab 01: Manejo de intentos para iniciar nuevas actividades.</string>
+    <string name="label_main_explanation03">Lab 02: Envio de parametro entre actividades.</string>
+    <string name="label_main_explanation04">Lab 03: Manejo de listviews simples.</string>
+    <string name="btn_main_lab01_label">Lab 01</string>
+    <string name="btn_main_lab02_label">Lab 02</string>
+    <string name="btn_main_lab03_label">Lab 03</string>
+
+    <!-- Todos los strings utilizados para las actividades del lab01 -->
+    <string name="title_activity_lab01_first">Lab 01 Primera Actividad</string>
+    <string name="title_activity_lab01_second">Lab 01 Segunda Actividad</string>
+    <string name="label_lab01_firstActivity">El objetivo del lab 01 es poder intentar abrir otra actividad con un botón</string>
+    <string name="label_lab01_secondActivity">Esta es la segunda actividad</string>
+    <string name="btn_lab01_goToNext">Ir a siguiente</string>
+
+    <!-- Todos los strings utilizados para las actividades del lab02 -->
+    <string name="title_activity_lab02_first">Lab 02 Primera Actividad</string>
+    <string name="label_lab02_firstActivity">El objetivo del lab 02 es poder intentar abrir otra actividad con un botón y poder enviar un parametro de la primer actividad a la segunda.</string>
+    <string name="title_activity_lab02_second">Lab 02 Segunda Actividad</string>
+    <string name="et_lab02_param_hint">Ingresa un parametro</string>
+    <string name="btn_lab02_goToNext">Ir a siguiente</string>
+    <string name="title_activity_lab03_list">Lab 03 List Activity</string>
+
+</resources>

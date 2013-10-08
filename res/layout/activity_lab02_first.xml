@@ -1,0 +1,35 @@
+<!-- 
+El layout de la primer actividad del lab 02 es lineal con orientacion vertical.
+
+Contiene una vista de tipo textView la cual despliega un texto almacenado en el recurso de Strings de la aplicacion
+(/res/values/strings.xml).
+
+Incluye tambien un cuadro de texto (EditText) el cual tiene como id "et_lab02_param", incluye un texto hint y servira
+para que lo se escriba ahi, se pase de parametro a la siguiente actividad
+
+Finalmente incluye un botón el cual nos servirá para *intentar* ir a la siguiente actividad del lab 02.
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_lab02_firstActivity" />
+    
+    <EditText 
+        android:id="@+id/et_lab02_param"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:hint="@string/et_lab02_param_hint"
+        android:inputType="text"/>
+    
+    <Button 
+        android:id="@+id/btn_lab02_firstActivity_goToNext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+   		android:text="@string/btn_lab02_goToNext"
+        />
+</LinearLayout>

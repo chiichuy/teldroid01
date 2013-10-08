@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.telnor.curso.dia01"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.telnor.curso.dia01.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.telnor.curso.dia01.Lab01FirstActivity"
+            android:label="@string/title_activity_lab01_first" >
+        </activity>
+        <activity
+            android:name="com.telnor.curso.dia01.Lab01SecondActivity"
+            android:label="@string/title_activity_lab01_second" >
+        </activity>
+        <activity
+            android:name="com.telnor.curso.dia01.Lab02FirstActivity"
+            android:label="@string/title_activity_lab02_first" >
+        </activity>
+        <activity
+            android:name="com.telnor.curso.dia01.Lab02SecondActivity"
+            android:label="@string/title_activity_lab02_second" >
+        </activity>
+        <activity
+            android:name="com.telnor.curso.dia01.Lab03ListActivity"
+            android:label="@string/title_activity_lab03_list" >
+        </activity>
+    </application>
+
+</manifest>

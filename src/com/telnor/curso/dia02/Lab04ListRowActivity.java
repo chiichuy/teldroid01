@@ -13,16 +13,16 @@ public class Lab04ListRowActivity extends Activity {
 
 	Lab04RowAdapter listado;
 	ListView lv;
-	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_lab04_list_row);
-		
+
 		listado = new Lab04RowAdapter(this);
-		
+
 		lv = (ListView) findViewById(R.id.lab04_lv_contenedor);
-		
+
 		lv.setAdapter(listado);
 		cargarInfo();
 	}
@@ -33,23 +33,23 @@ public class Lab04ListRowActivity extends Activity {
 		getMenuInflater().inflate(R.menu.lab04_list_row, menu);
 		return true;
 	}
-	
-	public void cargarInfo(){
+
+	public void cargarInfo() {
 		listado.clear();
 		Lab04Pizza pizza;
-		
+
 		pizza = new Lab04Pizza();
 		pizza.setNombre("Carnivora");
-		
+
 		listado.add(pizza);
-		
+
 		pizza = new Lab04Pizza();
 		pizza.setNombre("Suprema");
-		
+
 		listado.add(pizza);
-		
+
 		listado.notifyDataSetChanged();
-		
+
 	}
 
 }

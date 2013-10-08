@@ -23,6 +23,7 @@ public class Lab04ListRowActivity extends Activity {
 		
 		lv = (ListView) findViewById(R.id.lab04_lv_contenedor);
 		
+		lv.setAdapter(listado);
 		cargarInfo();
 	}
 

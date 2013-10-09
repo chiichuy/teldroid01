@@ -22,36 +22,22 @@ import org.xml.sax.SAXException;
 
 public class XMLParser {
 
-	public XMLParser() {
-
-	}
-
-	// obtener DOM de URL
-	// TODO: hacer metodo para obtener DOM
 	public String getXmlFromUrl(String url) {
 		String xml = null;
-
 		DefaultHttpClient httpCliente = new DefaultHttpClient();
 		HttpPost httpPost = new HttpPost(url);
-
 		try {
 			HttpResponse httpResponse = httpCliente.execute(httpPost);
 			HttpEntity httpEntity = httpResponse.getEntity();
 			xml = EntityUtils.toString(httpEntity);
-
 		} catch (ClientProtocolException e) {
-
 			e.printStackTrace();
 		} catch (IOException e) {
-
 			e.printStackTrace();
 		}
-
 		return xml;
 	}
 
-	// obtener xml del DOM
-	// TODO: conversion DOM-xml
 	public Document getDomElement(String xml) {
 		Document document = null;
 		DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory
@@ -63,20 +49,15 @@ public class XMLParser {
 			inputSource.setCharacterStream(new StringReader(xml));
 			document = documentBuilder.parse(inputSource);
 		} catch (SAXException e) {
-
 			e.printStackTrace();
 		} catch (IOException e) {
-
 			e.printStackTrace();
 		} catch (ParserConfigurationException e) {
-
 			e.printStackTrace();
 		}
 		return document;
 	}
 
-	// buscar nodo en lista nodos
-	// TODO: obtener valor nodos
 	public String getElementValue(Node elem) {
 		Node child;
 		if (elem != null) {
@@ -92,8 +73,6 @@ public class XMLParser {
 		return "";
 	}
 
-	// obtener el valor del nodo
-	// TODO: obtener vlaor nodo individual
 	public String getValue(Element item, String tagName) {
 		NodeList nodelist = item.getElementsByTagName(tagName);
 		return this.getElementValue(nodelist.item(0));

@@ -1,6 +1,6 @@
 package com.telnor.curso.dia01;
 
-import com.telnor.curso.dia02.Lab04ListRowActivity;
+import com.telnor.curso.dia02.deprecated.Lab04ListRowActivity;
 
 import android.os.Bundle;
 import android.app.Activity;

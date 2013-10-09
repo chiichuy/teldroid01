@@ -8,6 +8,8 @@
         android:minSdkVersion="18"
         android:targetSdkVersion="18" />
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -43,7 +45,7 @@
             android:label="@string/title_activity_lab03_list" >
         </activity>
         <activity
-            android:name="com.telnor.curso.dia02.Lab04ListRowActivity"
+            android:name="com.telnor.curso.dia02.deprecated.Lab04ListRowActivity"
             android:label="@string/title_activity_lab04_list_row" >
         </activity>
     </application>

@@ -1,4 +1,4 @@
-package com.telnor.curso.dia02;
+package com.telnor.curso.dia02.listView;
 
 import com.telnor.curso.dia01.R;
 

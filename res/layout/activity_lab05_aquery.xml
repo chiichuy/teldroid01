@@ -9,13 +9,14 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity" >
+    tools:context=".Lab05AQueryActivity" >
 
-    <ImageView 
+    <ImageView
         android:id="@+id/imagen"
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:contentDescription="Foto"/>
+        android:contentDescription="Foto" />
+
     <TextView
         android:id="@+id/label"
         style="@style/CodeFont.Red"

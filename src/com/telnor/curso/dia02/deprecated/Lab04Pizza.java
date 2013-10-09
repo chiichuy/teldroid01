@@ -1,4 +1,4 @@
-package com.telnor.curso.dia02;
+package com.telnor.curso.dia02.deprecated;
 
 public class Lab04Pizza {
 
@@ -7,6 +7,14 @@ public class Lab04Pizza {
 	private String costo;
 	private String descripcion;
 
+	public Lab04Pizza(){
+		
+	}
+	
+	public Lab04Pizza(String nombre){
+		this.nombre=nombre;
+	}
+	
 	public String getId() {
 		return id;
 	}

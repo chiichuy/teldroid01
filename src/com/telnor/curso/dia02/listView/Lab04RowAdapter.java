@@ -1,6 +1,7 @@
 package com.telnor.curso.dia02.listView;
 
 import com.telnor.curso.dia01.R;
+import com.telnor.curso.dia02.listView.model.Lab04Pizza;
 
 import android.content.Context;
 import android.view.View;

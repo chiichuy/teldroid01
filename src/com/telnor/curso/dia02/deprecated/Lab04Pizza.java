@@ -2,32 +2,16 @@ package com.telnor.curso.dia02.deprecated;
 
 public class Lab04Pizza {
 
-	private String id;
-	private String nombre;
 	private String costo;
 	private String descripcion;
+	private String id;
+	private String nombre;
 
-	public Lab04Pizza(){
-		
-	}
-	
-	public Lab04Pizza(String nombre){
-		this.nombre=nombre;
-	}
-	
-	public String getId() {
-		return id;
+	public Lab04Pizza() {
+
 	}
 
-	public void setId(String id) {
-		this.id = id;
-	}
-
-	public String getNombre() {
-		return nombre;
-	}
-
-	public void setNombre(String nombre) {
+	public Lab04Pizza(String nombre) {
 		this.nombre = nombre;
 	}
 
@@ -45,6 +29,22 @@ public class Lab04Pizza {
 
 	public void setDescripcion(String descripcion) {
 		this.descripcion = descripcion;
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 
 }

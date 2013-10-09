@@ -1,4 +1,4 @@
-package com.telnor.curso.dia02.listView;
+package com.telnor.curso.dia02.listView.model;
 
 public class Lab04Pizza {
 
@@ -7,14 +7,20 @@ public class Lab04Pizza {
 	private String costo;
 	private String descripcion;
 
-	public Lab04Pizza(){
-		
+	public Lab04Pizza() {
+
 	}
-	
-	public Lab04Pizza(String nombre){
-		this.nombre=nombre;
+
+	public Lab04Pizza(String nombre, String costo, String descripcion) {
+		this.nombre = nombre;
+		this.costo = costo;
+		this.descripcion = descripcion;
 	}
-	
+
+	public Lab04Pizza(String nombre) {
+		this.nombre = nombre;
+	}
+
 	public String getId() {
 		return id;
 	}

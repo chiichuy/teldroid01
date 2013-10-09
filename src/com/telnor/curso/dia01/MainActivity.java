@@ -1,13 +1,13 @@
 package com.telnor.curso.dia01;
 
-import com.telnor.curso.dia02.deprecated.Lab04ListRowActivity;
-
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
+
+import com.telnor.curso.dia02.listView.Lab04ListRowActivity;
 
 /**
  * Esta actividad nos servirá como menú a los laboratorios del dia 01
@@ -53,7 +53,7 @@ public class MainActivity extends Activity {
 				startActivity(goToLab03);
 			}
 		});
-		
+
 		lab04Button.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {

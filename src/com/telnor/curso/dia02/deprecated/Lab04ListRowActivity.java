@@ -7,7 +7,6 @@ import org.w3c.dom.NodeList;
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.StrictMode;
-import android.view.Menu;
 import android.widget.ListView;
 
 import com.telnor.curso.dia01.R;
@@ -34,7 +33,7 @@ public class Lab04ListRowActivity extends Activity {
 					.permitAll().build();
 			StrictMode.setThreadPolicy(policy);
 		}
-		
+
 		listado = new Lab04RowAdapter(this);
 
 		listView = (ListView) findViewById(R.id.lab04_lv_contenedor);
